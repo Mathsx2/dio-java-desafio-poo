@@ -3,7 +3,7 @@
 ## Esse foi o desafio proposto pelo bootcamp da Dio: criar um diagrama UML e as classes em `.java`. Caso se interesse e queira criar um também, aqui está o passo a passo.
 
 ### Meu UML: 
-![Minha UML](https://ibb.co/crYtDQj)
+![Minha UML](https://i.ibb.co/crYtDQj/UML-IPHONE.jpg)
 
 ## [DIO](www.dio.me) - Trilha Java Básico
 
