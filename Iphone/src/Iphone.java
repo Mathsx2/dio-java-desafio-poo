@@ -1,6 +1,5 @@
 public class Iphone implements ReprodutorMusical, AparelhoTelefonico, NavegadorInternet {
 
-    // Métodos do ReprodutorMusical
     @Override
     public void tocar() {
         System.out.println("Tocando música...");
@@ -16,7 +15,6 @@ public class Iphone implements ReprodutorMusical, AparelhoTelefonico, NavegadorI
         System.out.println("Selecionando a música: " + musica);
     }
 
-    // Métodos do AparelhoTelefonico
     @Override
     public void ligar(String numero) {
         System.out.println("Ligando para: " + numero);
@@ -32,7 +30,6 @@ public class Iphone implements ReprodutorMusical, AparelhoTelefonico, NavegadorI
         System.out.println("Iniciando correio de voz...");
     }
 
-    // Métodos do NavegadorInternet
     @Override
     public void exibirPagina(String url) {
         System.out.println("Exibindo página: " + url);
@@ -49,21 +46,18 @@ public class Iphone implements ReprodutorMusical, AparelhoTelefonico, NavegadorI
     }
 
     public static void main(String[] args) {
-        Iphone meuIphone = new Iphone();
+        Iphone iphoneMatheus = new Iphone();
 
-        // Testando funcionalidades do ReprodutorMusical
-        meuIphone.tocar();
-        meuIphone.pausar();
-        meuIphone.selecionarMusica("Minha Música Favorita");
+        iphoneMatheus.tocar();
+        iphoneMatheus.pausar();
+        iphoneMatheus.selecionarMusica("Minha Música Favorita");
 
-        // Testando funcionalidades do AparelhoTelefonico
-        meuIphone.ligar("123-456-7890");
-        meuIphone.atender();
-        meuIphone.iniciarCorreioVoz();
+        iphoneMatheus.ligar("150-587-8850");
+        iphoneMatheus.atender();
+        iphoneMatheus.iniciarCorreioVoz();
 
-        // Testando funcionalidades do NavegadorInternet
-        meuIphone.exibirPagina("www.exemplo.com");
-        meuIphone.adicionarNovaAba();
-        meuIphone.atualizarPagina();
+        iphoneMatheus.exibirPagina("web.dio.me");
+        iphoneMatheus.adicionarNovaAba();
+        iphoneMatheus.atualizarPagina();
     }
 }
